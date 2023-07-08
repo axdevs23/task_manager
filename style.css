@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+.content{
+  width: 40%;
+  margin: 0 30%;
+}
+
+h1 {
+  text-align: center;
+}
+
+.todo-container {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+li span {
+  flex: 1;
+  margin-left: 10px;
+}
+
+li.completed span {
+  text-decoration: line-through;
+  color: #999;
+}
+
+button.delete-btn {
+  margin-left: 10px;
+}
+.completed {
+  text-decoration: line-through;
+}
